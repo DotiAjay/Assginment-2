@@ -16,9 +16,7 @@ class PasswordItem extends Component {
           <p>{username}</p>
         </div>
         <div className="paraCard">
-          <p>
-            {website} 
-          </p>
+          <p>{website}</p>
           <p>{username}</p>
           <p>
             {hidePass ? (
@@ -36,7 +34,8 @@ class PasswordItem extends Component {
           <img
             src="https://assets.ccbp.in/frontend/react-js/password-manager-delete-img.png "
             alt="delete"
-            className="deleteImg" data-testId="delete"
+            className="deleteImg"
+            data-testid="delete"
           />
         </button>
       </li>
