@@ -72,6 +72,7 @@ class PasswordManger extends Component {
         <img
           src="https://assets.ccbp.in/frontend/react-js/password-manager-logo-img.png"
           className="logo"
+         
           alt="app logo"
         />
 
@@ -120,7 +121,7 @@ class PasswordManger extends Component {
                 />{' '}
               </label>
               <input
-                type="passwordt"
+                type="password"
                 placeholder="Enter Password"
                 className="input"
                 onChange={this.pass}
@@ -135,14 +136,13 @@ class PasswordManger extends Component {
           </div>
           <img
             src="https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png"
-            className="passImg"
+            className="passImg"  alt="password manager"
           />
         </div>
         <div className="card">
           <div className="NavBar">
-            <p className="passHead">
-              Your Password <span>{count}</span>
-            </p>
+            <h1 className="passHead">Your Passwords</h1>
+            <p>{count}</p>
             <label htmlFor="searchItem">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/password-manager-search-img.png"
